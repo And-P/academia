@@ -39,10 +39,7 @@ public class AvaliacaoFisicaServiceImpl implements IAvaliacaoFisicaService {
   }
 
   @Override
-  public List<AvaliacaoFisica> getAll() {
-
-    return avaliacaoFisicaRepository.findAll();
-  }
+  public List<AvaliacaoFisica> getAll() { return avaliacaoFisicaRepository.findAll(); }
 
   @Override
   public AvaliacaoFisica update(Long id, AvaliacaoFisicaUpdateForm formUpdate) {
@@ -50,7 +47,5 @@ public class AvaliacaoFisicaServiceImpl implements IAvaliacaoFisicaService {
   }
 
   @Override
-  public void delete(Long id) {
-
-  }
+  public void delete(Long id) {  }
 }
